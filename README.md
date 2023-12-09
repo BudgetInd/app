@@ -2,10 +2,8 @@
 
 A new Flutter project.
 
-
-<a href="https://codecov.io/gh/IDScript/Flutter"><img src="https://codecov.io/gh/IDScript/Flutter/branch/main/graph/badge.svg" alt="codecov"></a>
-
-<a href="https://codecov.io/gh/IDScript/Flutter"><img src="https://codecov.io/gh/IDScript/Flutter/graphs/tree.svg?token=D1AENLQO2K" alt="codecov"></a>
+[![codecov](https://codecov.io/gh/BudgetInd/app/graph/badge.svg?token=K5IOXBLW1Y)](https://codecov.io/gh/BudgetInd/app)
+[![codecov](https://codecov.io/gh/BudgetInd/app/graphs/tree.svg?token=K5IOXBLW1Y)](https://codecov.io/gh/BudgetInd/app)
 
 ## Getting Started
 
