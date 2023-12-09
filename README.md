@@ -3,6 +3,7 @@
 A new Flutter project.
 
 [![codecov](https://codecov.io/gh/BudgetInd/app/graph/badge.svg?token=K5IOXBLW1Y)](https://codecov.io/gh/BudgetInd/app)
+
 [![codecov](https://codecov.io/gh/BudgetInd/app/graphs/tree.svg?token=K5IOXBLW1Y)](https://codecov.io/gh/BudgetInd/app)
 
 ## Getting Started
