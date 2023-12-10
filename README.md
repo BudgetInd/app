@@ -1,9 +1,10 @@
-# myapp
+# BudgetIn
 
 A new Flutter project.
 
+[![codecov](https://codecov.io/gh/BudgetInd/app/graph/badge.svg?token=K5IOXBLW1Y)](https://codecov.io/gh/BudgetInd/app)
 
-<a href="https://codecov.io/gh/IDScript/Flutter"><img src="https://codecov.io/gh/IDScript/Flutter/branch/main/graph/badge.svg" alt="codecov"></a>
+[![codecov](https://codecov.io/gh/BudgetInd/app/graphs/tree.svg?token=K5IOXBLW1Y)](https://codecov.io/gh/BudgetInd/app)
 
 ## Getting Started
 
