@@ -2,21 +2,21 @@ name: 🧪 Widget Testing
 
 on:
   push:
-    branches: [dev]
+    branches: [qa, dev]
   pull_request:
-    branches: [main, dev]
+    branches: [main, qa, dev]
 
 jobs:
   widget-test:
     name: 🔥 Run Testing
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4.1.1  
-      - uses: subosito/flutter-action@v2.11.0    
+      - uses: actions/checkout@v4.1.1
+      - uses: subosito/flutter-action@v2.11.0
         with:
           channel: "stable"
       - run: flutter test --coverage
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v3
-        env:
-          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }} 
+        # env:
+          # CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
