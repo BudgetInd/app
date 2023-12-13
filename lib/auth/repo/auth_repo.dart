@@ -4,8 +4,8 @@ class AuthRepository {
   Future<bool> hasToken() async {
     final SharedPreferences prefs = await SharedPreferences.getInstance();
     final String? value = prefs.getString('token');
-    print(value);
     if (value != null) {
+      print(value);
       return true;
     } else {
       return false;

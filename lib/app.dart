@@ -1,3 +1,4 @@
+import 'package:budgetin/app/services/di.dart';
 import 'package:flutter/material.dart';
 import 'package:budgetin/auth/auth.dart';
 // import 'package:budgetin/login/login.dart';
@@ -22,27 +23,7 @@ class App extends StatelessWidget {
           switch (state) {
             case AuthAuthenticated _:
               // return const DashboardPage();
-              return Scaffold(
-                body: Container(
-                  color: Colors.white,
-                  width: MediaQuery.of(context).size.width,
-                  child: const Column(
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: <Widget>[
-                      SizedBox(
-                        height: 25.0,
-                        width: 25.0,
-                        child: CircularProgressIndicator(
-                          valueColor:
-                              AlwaysStoppedAnimation<Color>(Colors.green),
-                          strokeWidth: 4.0,
-                        ),
-                      )
-                    ],
-                  ),
-                ),
-              );
+              return const MyApp();
             case AuthUnauthenticated _:
               //   return BlocProvider<LoginBloc>(
               //     create: (context) => LoginBloc(APILogin()),
